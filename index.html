@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="card">
+        <header class="card-header">
+            <h1>Personal Profile</h1>
+            <p>Fill in the form below to generate your profile page.</p>
+        </header>
+
+        <form action="profile" method="post" class="profile-form">
+
+            <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. Ahmad Naim" required>
+            </div>
+
+            <div class="field">
+                <label for="studentId">Student ID</label>
+                <input type="text" id="studentId" name="studentId" placeholder="e.g. 2023123456" required>
+            </div>
+
+            <div class="field">
+                <label for="programme">Programme</label>
+                <input type="text" id="programme" name="programme" placeholder="e.g. Bachelor of Computer Science" required>
+            </div>
+
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="e.g. name@example.com" required>
+            </div>
+
+            <div class="field">
+                <label for="hobbies">Hobbies</label>
+                <input type="text" id="hobbies" name="hobbies" placeholder="Separate with commas, e.g. Reading, Football, Coding">
+                <small>Separate multiple hobbies with commas.</small>
+            </div>
+
+            <div class="field">
+                <label for="intro">Short Self-Introduction</label>
+                <textarea id="intro" name="intro" rows="5" placeholder="Tell us a little about yourself..." required></textarea>
+            </div>
+
+            <div class="actions">
+                <button type="submit" class="btn btn-primary">Generate Profile</button>
+                <button type="reset" class="btn btn-secondary">Clear</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
