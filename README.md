@@ -4,8 +4,8 @@ A simple web application that collects personal profile information in an HTML f
 
 ## Author
 
-* **Name:** MUHAMMAD SHAHRUL IMAN BIN KAMAL 
-* **ID:** 2025382685
+* **Name:** SYED MUHAMMAD KAMAL NA'IM BIN SYED MOHD KHOMSAH
+* **ID:** 2025178587
 
 ## How to Run
 
